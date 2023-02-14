@@ -1,0 +1,150 @@
+*{
+    margin:0;
+    padding:0;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+}
+body{
+    display:flex;
+    flex-direction: column;
+}
+.title{
+    margin:0;
+    padding:0;
+    display:flex;
+    flex-wrap:wrap;
+    
+    background-color:rgb(155, 38, 38) ;
+    width:100vw;
+    height:80px;
+    color:white;
+    font-weight:300px;
+    font-size:30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.attack{
+    margin:0;
+    padding:0;
+    display:flex;
+    
+}
+.container{
+    margin:0;
+    padding:0;
+    justify-content:center;
+    align-items:center;
+    display:flex;
+    font-size:26px;
+    border-color:black;
+    flex-direction: column
+    
+}
+.container .monster{
+    display:flex;
+    border:1px solid;
+    border-radius:10px;
+    border-color:rgb(141, 135, 135);
+    flex-direction: column;
+    width:fit-content;
+    padding:20px;
+}
+.container .you{
+    display:flex;
+    border:1px solid;
+    border-radius:10px;
+    border-color:rgb(141, 135, 135);
+    flex-direction: column;
+    width:fit-content;
+    padding:20px;
+}
+.container #mhealth{
+    width:600px;
+    height:26px;
+    background:green;
+
+}
+.container #yhealth{
+    width:600px;
+    height:26px;
+    background:green;
+}
+
+.container1{
+    font-size:20px;
+    display:flex;
+    flex-direction: column;
+    padding:10px;
+    padding-bottom: 20px;
+}
+.container1 .attacks{
+    display:flex;
+    flex-direction: row;
+}
+.container1 .heal_giveup{
+    display:flex;
+    flex-direction: row;
+}
+.container1 .attacks #button1{
+    height:40px;
+    background-color: rgb(180, 23, 154);
+    font-size:13px;
+    width:130px;
+    border-radius:8px;
+    border:1px;
+    color:white;
+}
+.container1 .attacks #button2{
+     height:40px;
+    background-color: rgb(180, 23, 154);
+    font-size:13px;
+    width:130px;
+    border-radius:8px;
+    border:1px;
+    color:white;
+}
+.container1 .heal_giveup #button3{
+    height:40px;
+    background-color: rgb(180, 23, 154);
+    font-size:13px;
+    width:130px;
+    border-radius:8px;
+    border:1px;
+    color:white;
+}
+.container1 .heal_giveup #button4{
+    height:40px;
+    background-color: rgb(180, 23, 154);
+    font-size:13px;
+    width:130px;
+    border-radius:8px;
+    border:1px;
+    color:white;
+}
+
+.container1 .attacks .btn1pad{
+    padding-right:20px;
+}
+.container1 .attacks .btn2pad{
+    padding-left:20px;
+}
+.container1 .heal_giveup .btn3pad{
+    padding-right:20px;
+}
+.container1 .heal_giveup .btn4pad{
+    padding-left:20px;
+}
+
+.battlelog{
+    font-size:25px;
+    border:1px solid;
+    border-color:rgb(141, 135, 135);
+    width:650px;
+    height:200px;
+    border-radius:10px;
+    
+}
+.battlelog .battext{
+    display:flex;
+}

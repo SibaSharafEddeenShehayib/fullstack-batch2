@@ -5,6 +5,7 @@
     flex-wrap:wrap;
     justify-content:center;
     align-items:center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 body{
     display:flex;
@@ -89,7 +90,7 @@ body{
 .container1 .attacks #button1{
     height:40px;
     background-color: rgb(180, 23, 154);
-    font-size:13px;
+    font-size:15px;
     width:130px;
     border-radius:8px;
     border:1px;
@@ -98,7 +99,7 @@ body{
 .container1 .attacks #button2{
      height:40px;
     background-color: rgb(180, 23, 154);
-    font-size:13px;
+    font-size:15px;
     width:130px;
     border-radius:8px;
     border:1px;
@@ -107,7 +108,7 @@ body{
 .container1 .heal_giveup #button3{
     height:40px;
     background-color: rgb(180, 23, 154);
-    font-size:13px;
+    font-size:15px;
     width:130px;
     border-radius:8px;
     border:1px;
@@ -116,7 +117,7 @@ body{
 .container1 .heal_giveup #button4{
     height:40px;
     background-color: rgb(180, 23, 154);
-    font-size:13px;
+    font-size:15px;
     width:130px;
     border-radius:8px;
     border:1px;
@@ -140,11 +141,27 @@ body{
     font-size:25px;
     border:1px solid;
     border-color:rgb(141, 135, 135);
-    width:650px;
-    height:200px;
     border-radius:10px;
+    width:600px;
+    height:fit-content;
+    
     
 }
 .battlelog .battext{
     display:flex;
+}
+#result{
+    display:flex;
+    flex-direction: column;
+    font-weight:bold;
+}
+.finalResult #button5{
+    padding:10px;
+    height:40px;
+    background-color: rgb(180, 23, 154);
+    font-size:15px;
+    width:130px;
+    border-radius:8px;
+    border:1px;
+    color:white;
 }
